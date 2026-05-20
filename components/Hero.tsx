@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="relative bg-navy-500 flex flex-col min-h-screen">
+    <section className="relative bg-navy-500 flex flex-col h-[calc(100vh-64px)]">
       {/* Emoji texture background */}
       <div
         className="absolute inset-0 overflow-hidden pointer-events-none select-none"
@@ -29,7 +29,7 @@ export default function Hero() {
 
       {/* Main content */}
       <div className="relative z-10 flex-1 flex items-center">
-        <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-24">
+        <div className="w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-12">
           <div className="flex flex-col items-center text-center">
 
             {/* Badge */}

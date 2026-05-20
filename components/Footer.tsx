@@ -5,15 +5,12 @@ export default function Footer() {
     <footer className="py-10 px-4 bg-navy-500">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Logo */}
-        <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-lg bg-red-500 flex items-center justify-center">
-            <span className="text-white font-black text-xs">Z</span>
-          </div>
-          <span className="font-bold text-white/60 text-sm">
-            Fala em 21 dias —{" "}
-            <span className="text-white/40">English by Zeu</span>
-          </span>
-        </div>
+        <span
+          className="text-xl text-white/70 tracking-tight"
+          style={{ fontFamily: "var(--font-brand)", fontWeight: 900 }}
+        >
+          English by <span className="text-red-400">Zeu</span>
+        </span>
 
         {/* Links */}
         <div className="flex items-center gap-6 text-white/30 text-xs">
