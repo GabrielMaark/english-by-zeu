@@ -1,0 +1,36 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "Fala em 21 dias — English by Zeu",
+  description:
+    "O desafio de 21 dias que vai destravar sua fala em inglês de uma vez por todas. Turma começa dia 2 de junho.",
+  openGraph: {
+    title: "Fala em 21 dias — English by Zeu",
+    description:
+      "O desafio de 21 dias que vai destravar sua fala em inglês de uma vez por todas.",
+    type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="pt-BR">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
