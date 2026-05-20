@@ -56,7 +56,7 @@ export default function Hero() {
             {/* CTA */}
             <div className="flex flex-col items-center gap-3 w-full sm:w-auto animate-[fadeUp_0.6s_ease-out_0.3s_both]">
               <a
-                href="#"
+                href="https://pay.kiwify.com.br/BFhYtDe"
                 className="group inline-flex items-center justify-center gap-3 bg-red-500 hover:bg-red-600 text-white font-black text-base sm:text-lg uppercase tracking-wider px-10 sm:px-14 py-4 sm:py-5 rounded-full transition-all duration-200 shadow-2xl shadow-red-500/40 w-full sm:w-auto"
               >
                 <span>GARANTIR MINHA VAGA</span>

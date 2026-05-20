@@ -43,7 +43,7 @@ export default function FinalCTA() {
         {/* CTA */}
         <div className="reveal reveal-delay-3 flex flex-col items-center gap-4">
           <a
-            href="#"
+            href="https://pay.kiwify.com.br/BFhYtDe"
             className="group relative inline-flex items-center justify-center gap-3 bg-white hover:bg-white/90 text-red-500 font-black text-lg sm:text-xl uppercase tracking-wider px-10 sm:px-14 py-5 sm:py-6 rounded-full transition-all duration-200 shadow-2xl shadow-red-600/30 w-full sm:w-auto"
           >
             <span>GARANTIR MINHA VAGA</span>

@@ -70,7 +70,7 @@ export default function Offer() {
 
           {/* CTA button */}
           <a
-            href="#"
+            href="https://pay.kiwify.com.br/BFhYtDe"
             className="group flex items-center justify-center gap-3 w-full bg-red-500 hover:bg-red-600 text-white font-black text-base sm:text-lg uppercase tracking-wider py-5 rounded-full transition-all duration-200 shadow-lg shadow-red-500/30"
           >
             <span>GARANTIR MINHA VAGA</span>
