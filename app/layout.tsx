@@ -25,9 +25,6 @@ export const metadata: Metadata = {
       "O desafio de 21 dias que vai destravar sua fala em inglês de uma vez por todas.",
     type: "website",
   },
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({
