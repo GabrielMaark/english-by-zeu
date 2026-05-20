@@ -3,18 +3,15 @@
 const pains = [
   {
     headline: "Entendo tudo, mas na hora de falar, trava.",
-    description:
-      "Você assiste série sem legenda, entende podcast, lê artigos em inglês. Mas quando alguém te fala em inglês, a cabeça congela e as palavras não saem.",
+    description: "",
   },
   {
     headline: "Só consigo entender com legenda.",
-    description:
-      "Sem a legenda amarela embaixo, parece que o inglês some. Você depende dela como uma muleta e sabe que isso te limita — mas não sabe como mudar.",
+    description: "",
   },
   {
-    headline: "Leio e escrevo bem, mas falar parece impossível.",
-    description:
-      "Nas provas você ia bem. No WhatsApp em inglês você se vira. Mas numa conversa ao vivo? O pânico bate. É como se o inglês travasse na garganta.",
+    headline: "Sei inglês, mas me sinto abaixo do meu nível real.",
+    description: "",
   },
 ];
 
@@ -51,7 +48,7 @@ export default function Pain() {
             <p className="text-lg sm:text-xl font-semibold text-navy-500 leading-relaxed text-pretty">
               O problema não é seu inglês.{" "}
               <span className="text-red-500">
-                É o bloqueio mental que nenhum curso te ensinou a quebrar.
+                É que você nunca treinou a fala do jeito certo. E isso tem solução em 21 dias.
               </span>
             </p>
           </div>

@@ -5,7 +5,7 @@ const benefits = [
   "21 desafios de fala progressivos",
   "Grupo exclusivo de alunos",
   "1 live por semana ao vivo",
-  "Método baseado em listening real",
+  "Feedback real da comunidade",
   "Acesso imediato ao grupo após a compra",
 ];
 
@@ -34,9 +34,7 @@ export default function Offer() {
             <span className="text-red-500">agora</span>
           </h2>
           <p className="text-navy-500/50 text-lg text-pretty">
-            Turma começa dia{" "}
-            <span className="text-navy-500 font-semibold">2 de junho</span>.
-            Não deixa pra última hora.
+            Turma começa dia <span className="text-navy-500 font-semibold">2 de junho</span>. Não deixa pra última hora.
           </p>
         </div>
 
@@ -88,11 +86,11 @@ export default function Offer() {
           </a>
 
           {/* Guarantee */}
-          <div className="mt-5 flex items-center justify-center gap-2 text-navy-500/40 text-xs">
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+          <div className="mt-5 flex items-center justify-center gap-2 text-navy-500/40 text-xs text-center">
+            <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
             </svg>
-            <span>Garantia de satisfação de 7 dias</span>
+            <span>Garantia de satisfação de 7 dias. Se não gostar, devolvemos 100%.</span>
           </div>
         </div>
 

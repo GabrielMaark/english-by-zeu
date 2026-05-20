@@ -44,13 +44,13 @@ export default function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.05] tracking-tight mb-6 text-white text-balance animate-[fadeUp_0.6s_ease-out_0.1s_both]">
               Você entende inglês.{" "}
               <br className="hidden md:block" />
-              Agora é hora de{" "}
-              <span className="text-red-400">falar.</span>
+              Na hora de falar,{" "}
+              <span className="text-red-400">trava.</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg sm:text-xl text-white/80 max-w-lg mb-10 leading-relaxed text-pretty animate-[fadeUp_0.6s_ease-out_0.2s_both]">
-              O desafio de 21 dias que vai destravar sua fala de uma vez por todas.
+            <p className="text-lg sm:text-xl text-white/80 max-w-xl mb-10 leading-relaxed text-pretty animate-[fadeUp_0.6s_ease-out_0.2s_both]">
+              Você assiste séries, entende músicas, acompanha conversas. Mas quando alguém te fala em inglês, a cabeça congela e as palavras não saem. Isso não é falta de inglês. É falta do treino certo.
             </p>
 
             {/* CTA */}
@@ -89,8 +89,8 @@ export default function Hero() {
           <div className="flex items-center justify-center gap-3 px-8 py-3 sm:py-0">
             <span className="text-xl">🗣️</span>
             <div>
-              <p className="text-white font-bold text-sm leading-tight">Saia do entender para o falar</p>
-              <p className="text-white/70 text-xs">em 21 dias</p>
+              <p className="text-white font-bold text-sm leading-tight">Você não é iniciante.</p>
+              <p className="text-white/70 text-xs">Você só nunca treinou a fala.</p>
             </div>
           </div>
 
@@ -107,6 +107,7 @@ export default function Hero() {
               <p className="text-white/70 text-xs">2 de junho</p>
             </div>
           </div>
+
 
           {/* Divider desktop */}
           <div className="hidden sm:block w-px self-stretch bg-white/30 mx-4" />

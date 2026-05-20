@@ -6,27 +6,27 @@ const faqs = [
   {
     question: "Precisa ter algum nível de inglês?",
     answer:
-      "Não. O desafio começa do básico. O foco não é vocabulário avançado — é destravar a fala. Se você já assiste qualquer coisa em inglês (com ou sem legenda), você já tem base suficiente pra começar.",
+      "O desafio é ideal pra quem já entende inglês mas trava na hora de falar. Se você consegue acompanhar séries ou músicas, você está pronto.",
   },
   {
     question: "Quando começa?",
     answer:
-      "Dia 2 de junho. Ao comprar você já entra no grupo exclusivo e tem acesso à comunidade imediatamente. Os áudios e desafios diários começam no dia 2.",
+      "Dia 2 de junho. Ao comprar você já entra no grupo imediatamente.",
   },
   {
     question: "Como vou receber o conteúdo?",
     answer:
-      "Todo dia no grupo exclusivo de alunos. Um áudio com o Zeu + um desafio de fala. Simples, direto, sem plataforma complicada. Você só precisa do celular.",
+      "Todo dia você recebe um áudio e um desafio de fala direto no grupo exclusivo de alunos.",
   },
   {
     question: "E se eu não gostar?",
     answer:
-      "Garantia de 7 dias, sem perguntas. Se em uma semana você sentir que não foi o que esperava, é só mandar mensagem e devolvemos 100% do valor. Sem burocracia.",
+      "Garantia total de 7 dias. Pediu reembolso, devolvemos sem perguntas.",
   },
   {
     question: "Precisa de quanto tempo por dia?",
     answer:
-      "15 a 20 minutos por dia. O desafio foi feito pra caber na sua rotina real — não pede horas de estudo nem exercícios cansativos. Consistência diária curta > maratona uma vez por semana.",
+      "15 a 20 minutos por dia. É pouco tempo, mas é consistente — e é isso que faz a diferença.",
   },
 ];
 

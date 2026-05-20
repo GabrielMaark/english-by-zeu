@@ -7,7 +7,7 @@ const weeks = [
     title: "Desbloqueio",
     subtitle: "Quebre o bloqueio mental de uma vez",
     description:
-      "A maioria das pessoas trava por medo de errar, não por falta de vocabulário. Na primeira semana você entende de onde vem esse travamento e começa a desfazê-lo com exercícios práticos e diários.",
+      "Você vai entender de onde vem o travamento e começar a quebrá-lo com exercícios práticos e diários.",
     topBorder: "border-t-4 border-red-500",
     accentColor: "text-red-500",
     icon: "🔓",
@@ -18,7 +18,7 @@ const weeks = [
     title: "Ativação",
     subtitle: "Conversas do dia a dia",
     description:
-      "Com o bloqueio reduzido, é hora de ativar. Você vai praticar as situações mais comuns em inglês — trabalho, viagem, redes sociais, séries — com áudios e desafios de fala progressivos.",
+      "Você vai praticar situações reais — se apresentar, pedir algo, responder perguntas — e perceber que já consegue.",
     topBorder: "border-t-4 border-navy-500",
     accentColor: "text-navy-500",
     icon: "⚡",
@@ -29,7 +29,7 @@ const weeks = [
     title: "Fluência",
     subtitle: "Velocidade e naturalidade",
     description:
-      "Na reta final você treina velocidade, naturalidade e encadeamento de ideias. Você sai do desafio conseguindo manter conversas reais em inglês, sem depender de roteiros.",
+      "Você vai ganhar velocidade, naturalidade e confiança pra manter uma conversa real em inglês.",
     topBorder: "border-t-4 border-red-600",
     accentColor: "text-red-600",
     icon: "🚀",
@@ -40,22 +40,22 @@ const includes = [
   {
     icon: "🎙️",
     title: "21 áudios com o Zeu",
-    description: "Um por dia, direto no grupo. Curtos, práticos e com propósito.",
+    description: "Um por dia, direto no grupo.",
   },
   {
     icon: "🗣️",
     title: "21 desafios de fala",
-    description: "Exercícios reais pra você praticar e postar no grupo.",
+    description: "Você pratica e posta no grupo.",
   },
   {
     icon: "👥",
     title: "Grupo exclusivo de alunos",
-    description: "Acesso imediato após a compra. Comunidade ativa e motivadora.",
+    description: "Comunidade que evolui junto.",
   },
   {
     icon: "📡",
     title: "1 live por semana com o Zeu",
-    description: "Ao vivo, tira dúvidas, corrige pronúncia e dá feedback.",
+    description: "Feedback ao vivo, correção de pronúncia.",
   },
 ];
 
@@ -79,12 +79,11 @@ export default function Product() {
             <span className="text-navy-500 text-sm font-semibold">O Produto</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-balance text-navy-500">
-            O que são os{" "}
-            <span className="text-red-500">21&nbsp;dias?</span>
+            Isso não é um curso.{" "}
+            <span className="text-red-500">É um&nbsp;treino.</span>
           </h2>
-          <p className="text-navy-500/50 mt-4 text-lg max-w-xl mx-auto text-pretty">
-            Um método construído em cima do que realmente funciona — escuta real,
-            prática diária, comunidade.
+          <p className="text-navy-500/50 mt-4 text-lg max-w-2xl mx-auto text-pretty">
+            Nada de aulas gravadas pra assistir sem fazer nada. Aqui você vai praticar todo dia, receber feedback ao vivo, evoluir junto com uma comunidade e sentir na pele que seu inglês é melhor do que você pensa.
           </p>
         </div>
 

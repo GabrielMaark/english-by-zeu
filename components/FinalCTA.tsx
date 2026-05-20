@@ -37,8 +37,7 @@ export default function FinalCTA() {
 
         {/* Subtext */}
         <p className="reveal reveal-delay-2 text-white/80 text-lg sm:text-xl mb-12 max-w-xl mx-auto leading-relaxed text-pretty">
-          Você já deu o trabalho duro de aprender. Agora é só destravar. 21
-          dias. R$29,90. Uma vaga.
+          Você já deu o trabalho duro de aprender. Agora é só destravar. 21 dias. R$29,90. Uma vaga.
         </p>
 
         {/* CTA */}

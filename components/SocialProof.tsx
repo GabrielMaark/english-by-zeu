@@ -61,11 +61,12 @@ export default function SocialProof() {
             <span className="text-red-500 text-sm font-semibold">Prova Social</span>
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-balance text-navy-500">
-            Mais de{" "}
-            <span className="text-red-500">300 mil pessoas</span>{" "}
-            já descobriram que entendem inglês.{" "}
-            <span className="text-navy-500/40">Agora falta&nbsp;falar.</span>
+            Você não está{" "}
+            <span className="text-red-500">sozinho&nbsp;nessa.</span>
           </h2>
+          <p className="text-navy-500/50 mt-4 text-lg max-w-2xl mx-auto text-pretty">
+            Mais de 300 mil pessoas descobriram que entendem inglês mas travam na hora de falar. A dor é real. A solução também.
+          </p>
         </div>
 
         {/* Comments grid */}

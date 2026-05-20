@@ -43,27 +43,15 @@ export default function AboutZeu() {
 
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-6 leading-tight text-balance">
               Criado por quem{" "}
-              <span className="text-red-400">ensina&nbsp;diferente</span>
+              <span className="text-red-400">entende esse&nbsp;travamento</span>
             </h2>
 
-            <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-6 text-pretty">
+            <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 text-pretty">
               Zeu é professor de inglês e criador do canal{" "}
               <span className="text-red-400 font-semibold">English by Zeu</span>
-              , com mais de <strong className="text-white">10 mil seguidores</strong>{" "}
-              nas redes sociais. Seu método é baseado em{" "}
-              <strong className="text-white">listening real do dia a dia</strong> — séries,
-              músicas, conversas reais — em vez de gramática decorada e exercícios
-              sem contexto.
-            </p>
-
-            <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 text-pretty">
-              O "Fala em 21 dias" nasceu depois de ver centenas de comentários de
-              pessoas que{" "}
-              <span className="text-white font-semibold">
-                entendem tudo mas não conseguem falar nada
-              </span>
-              . Ele construiu um método específico pra resolver exatamente esse
-              problema.
+              . Depois de ver centenas de comentários de pessoas que entendem tudo mas travam na hora de falar, ele criou um método específico pra resolver exatamente isso.{" "}
+              <strong className="text-white">Não é gramática. Não é vocabulário.</strong>{" "}
+              É treino de fala real, do jeito que funciona.
             </p>
 
             {/* Stats */}
