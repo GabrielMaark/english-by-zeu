@@ -35,7 +35,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.className} ${nunito.variable}`}>{children}<Analytics /></body>
+      <body className={`${inter.className} ${nunito.variable}`}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
