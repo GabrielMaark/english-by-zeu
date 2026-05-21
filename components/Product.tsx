@@ -39,23 +39,18 @@ const weeks = [
 const includes = [
   {
     icon: "🎙️",
-    title: "21 áudios com o Zeu",
-    description: "Um por dia, direto no grupo.",
-  },
-  {
-    icon: "🗣️",
-    title: "21 desafios de fala",
-    description: "Você pratica e posta no grupo.",
+    title: "21 desafios de fala diários",
+    description: "Um desafio por dia pra você praticar e postar no grupo.",
   },
   {
     icon: "👥",
     title: "Grupo exclusivo de alunos",
-    description: "Comunidade que evolui junto.",
+    description: "Comunidade ativa pra praticar, receber feedback e evoluir junto.",
   },
   {
-    icon: "📡",
-    title: "1 live por semana com o Zeu",
-    description: "Feedback ao vivo, correção de pronúncia.",
+    icon: "🎯",
+    title: "Live de encerramento",
+    description: "Na última semana, uma live ao vivo com o Zeu pra fechar o desafio com chave de ouro.",
   },
 ];
 
@@ -110,7 +105,7 @@ export default function Product() {
           <h3 className="text-center text-2xl sm:text-3xl font-black mb-10 text-navy-500">
             O que está incluído
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             {includes.map((item, i) => (
               <div
                 key={item.title}

@@ -18,20 +18,10 @@ export default function AboutZeu() {
               <div className="absolute inset-0 bg-red-500/20 blur-3xl rounded-full scale-150" aria-hidden="true" />
 
               {/* Photo container */}
-              <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl overflow-hidden border-4 border-red-500 bg-navy-600">
-                <div className="w-full h-full flex flex-col items-center justify-center gap-3">
-                  <div className="w-24 h-24 rounded-full bg-red-500/20 border-2 border-red-500/50 flex items-center justify-center">
-                    <span className="text-4xl font-black text-red-400">Z</span>
-                  </div>
-                  <span className="text-white/30 text-sm">Foto do Zeu</span>
-                </div>
-                <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-navy-600 to-transparent" />
+              <div className="relative w-56 h-56 sm:w-64 sm:h-64 rounded-3xl overflow-hidden border-4 border-red-500">
+                <img src="/foto.png" alt="Zeu" className="w-full h-full object-cover" />
               </div>
 
-              {/* Badge */}
-              <div className="absolute -bottom-4 -right-4 bg-red-500 text-white font-black text-xs px-4 py-2 rounded-full shadow-lg">
-                +10k seguidores
-              </div>
             </div>
           </div>
 
@@ -47,31 +37,9 @@ export default function AboutZeu() {
             </h2>
 
             <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 text-pretty">
-              Zeu é professor de inglês e criador do canal{" "}
-              <span className="text-red-400 font-semibold">English by Zeu</span>
-              . Depois de ver centenas de comentários de pessoas que entendem tudo mas travam na hora de falar, ele criou um método específico pra resolver exatamente isso.{" "}
-              <strong className="text-white">Não é gramática. Não é vocabulário.</strong>{" "}
-              É treino de fala real, do jeito que funciona.
+              Sou professor de inglês há mais de 3 anos e ajudo alunos a desenvolverem confiança e fluência através da conversação. Minhas aulas são personalizadas de acordo com os objetivos, nível e interesses de cada aluno, tornando o aprendizado mais leve, natural e eficiente. Meu foco é ensinar o inglês da vida real, trabalhando comunicação, pronúncia e compreensão de forma prática e dinâmica.
             </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-4">
-              {[
-                { number: "+10k", label: "seguidores" },
-                { number: "+300k", label: "visualizações" },
-                { number: "21", label: "dias de método" },
-              ].map((stat) => (
-                <div
-                  key={stat.label}
-                  className="bg-white/10 border border-white/15 rounded-2xl p-4 text-center"
-                >
-                  <div className="text-xl sm:text-2xl font-black text-red-400">
-                    {stat.number}
-                  </div>
-                  <div className="text-white/40 text-xs mt-1">{stat.label}</div>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
       </div>

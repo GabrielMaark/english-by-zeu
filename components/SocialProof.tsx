@@ -10,14 +10,6 @@ const comments = [
     platform: "TikTok",
   },
   {
-    name: "@lucas_br",
-    avatar: "L",
-    color: "bg-blue-500",
-    text: "Sempre travei na hora de falar. Depois do método do Zeu finalmente consigo me expressar. Que diferença!",
-    likes: "1.8k",
-    platform: "Instagram",
-  },
-  {
     name: "@ana_ferreira",
     avatar: "A",
     color: "bg-pink-500",
@@ -26,28 +18,12 @@ const comments = [
     platform: "TikTok",
   },
   {
-    name: "@pedro.english",
-    avatar: "P",
-    color: "bg-orange-500",
-    text: "O problema nunca foi vocabulário. Era o bloqueio mental mesmo. O Zeu explica isso melhor que qualquer curso.",
-    likes: "987",
-    platform: "YouTube",
-  },
-  {
     name: "@carol_idiomas",
     avatar: "C",
     color: "bg-teal-500",
     text: "Fiz vários cursos caros e não saía do lugar. O método do Zeu é diferente de tudo que já vi. Recomendo demais!",
     likes: "2.2k",
     platform: "Instagram",
-  },
-  {
-    name: "@thiago.silva",
-    avatar: "T",
-    color: "bg-red-400",
-    text: "Comprei achando que era mais do mesmo. Me surpreendi muito. Já tô na semana 2 e a diferença é absurda.",
-    likes: "1.5k",
-    platform: "TikTok",
   },
 ];
 
@@ -66,6 +42,20 @@ export default function SocialProof() {
           </h2>
           <p className="text-navy-500/50 mt-4 text-lg max-w-2xl mx-auto text-pretty">
             Mais de 300 mil pessoas descobriram que entendem inglês mas travam na hora de falar. A dor é real. A solução também.
+          </p>
+        </div>
+
+        {/* Video testimonial */}
+        <div className="mb-12 flex flex-col items-center">
+          <div className="w-full max-w-[300px] rounded-2xl overflow-hidden shadow-xl">
+            <video
+              controls
+              className="w-full block"
+              src="/depoimento-ana.mp4"
+            />
+          </div>
+          <p className="mt-3 text-navy-500/50 text-sm text-center">
+            Ana, aluna do método — mora nos Estados Unidos 🇺🇸
           </p>
         </div>
 

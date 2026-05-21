@@ -34,7 +34,7 @@ export default function Offer() {
             <span className="text-red-500">agora</span>
           </h2>
           <p className="text-navy-500/50 text-lg text-pretty">
-            Turma começa dia <span className="text-navy-500 font-semibold">2 de junho</span>. Não deixa pra última hora.
+            Vagas <span className="text-navy-500 font-semibold">limitadas</span>. Não deixa pra última hora.
           </p>
         </div>
 

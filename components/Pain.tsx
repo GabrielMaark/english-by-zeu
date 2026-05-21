@@ -22,8 +22,7 @@ export default function Pain() {
         {/* Header */}
         <div className="text-center mb-16 reveal">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-balance text-navy-500">
-            Você se identifica{" "}
-            <span className="text-navy-500/40">com&nbsp;isso?</span>
+            Você se identifica com&nbsp;isso?
           </h2>
         </div>
 

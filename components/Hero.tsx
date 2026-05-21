@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 bg-red-500 rounded-full px-5 py-2 mb-8 animate-[fadeIn_0.6s_ease-out_forwards]">
               <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
               <span className="text-white text-sm font-bold tracking-wide uppercase">
-                Turma começa 2 de junho
+                Vagas limitadas
               </span>
             </div>
 
@@ -71,9 +71,7 @@ export default function Hero() {
                 </svg>
               </a>
               <p className="text-white/50 text-sm">
-                Turma começa dia 2 de junho{" "}
-                <span className="text-white/30">•</span>{" "}
-                Vagas limitadas
+                Vagas limitadas — garanta a sua
               </p>
             </div>
 
@@ -101,10 +99,10 @@ export default function Hero() {
 
           {/* Item 2 */}
           <div className="flex items-center justify-center gap-3 px-8 py-3 sm:py-0">
-            <span className="text-xl">📅</span>
+            <span className="text-xl">⚡</span>
             <div>
-              <p className="text-white font-bold text-sm leading-tight">Turma começa</p>
-              <p className="text-white/70 text-xs">2 de junho</p>
+              <p className="text-white font-bold text-sm leading-tight">Acesso imediato</p>
+              <p className="text-white/70 text-xs">entre no grupo hoje</p>
             </div>
           </div>
 

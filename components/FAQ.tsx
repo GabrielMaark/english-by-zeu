@@ -11,7 +11,7 @@ const faqs = [
   {
     question: "Quando começa?",
     answer:
-      "Dia 2 de junho. Ao comprar você já entra no grupo imediatamente.",
+      "As vagas são limitadas. Ao comprar você já entra no grupo imediatamente.",
   },
   {
     question: "Como vou receber o conteúdo?",
