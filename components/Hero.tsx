@@ -50,7 +50,7 @@ export default function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-white/80 max-w-xl mb-10 leading-relaxed text-pretty animate-[fadeUp_0.6s_ease-out_0.2s_both]">
-              Você assiste séries, entende músicas, acompanha conversas. Mas quando alguém te fala em inglês, a cabeça congela e as palavras não saem. Isso não é falta de inglês. É falta do treino certo.
+              Você assiste séries, entende músicas, acompanha conversas. Mas quando vai falar inglês, a cabeça congela e as palavras não saem. Isso não é falta de inglês. É falta do treino certo.
             </p>
 
             {/* CTA */}
