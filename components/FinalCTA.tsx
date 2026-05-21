@@ -78,7 +78,7 @@ export default function FinalCTA() {
           <span className="text-white text-xl">⚡</span>
           <p className="text-white/90 text-sm">
             <strong className="text-white">Vagas se esgotando.</strong>{" "}
-            Vagas se esgotando. Garante a sua agora.
+            Garante a sua agora.
           </p>
         </div>
       </div>
