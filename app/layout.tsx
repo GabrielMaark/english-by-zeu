@@ -16,11 +16,11 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "Fala em 21 dias — English by Zeu",
+  title: "Fale em 21 dias — English by Zeu",
   description:
     "O desafio de 21 dias que vai destravar sua fala em inglês de uma vez por todas. Turma começa dia 2 de junho.",
   openGraph: {
-    title: "Fala em 21 dias — English by Zeu",
+    title: "Fale em 21 dias — English by Zeu",
     description:
       "O desafio de 21 dias que vai destravar sua fala em inglês de uma vez por todas.",
     type: "website",
