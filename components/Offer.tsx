@@ -4,7 +4,7 @@ const benefits = [
   "21 áudios diários com o Zeu",
   "21 desafios de fala progressivos",
   "Grupo exclusivo de alunos",
-  "1 live por semana ao vivo",
+  "1 Live de encerramento",
   "Feedback real da comunidade",
   "Acesso imediato ao grupo após a compra",
 ];
