@@ -55,7 +55,7 @@ export default function SocialProof() {
             />
           </div>
           <p className="mt-3 text-navy-500/50 text-sm text-center">
-            Ana, aluna do método — mora nos Estados Unidos 🇺🇸
+            Lorrana, aluna do método — mora nos Estados Unidos 🇺🇸
           </p>
         </div>
 
