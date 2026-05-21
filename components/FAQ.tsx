@@ -95,10 +95,12 @@ export default function FAQ() {
           <p className="text-navy-500/40 text-sm">
             Ainda tem dúvidas?{" "}
             <a
-              href="#"
+              href="https://wa.me/5571982165567"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-red-500 hover:text-red-600 underline underline-offset-2 transition-colors"
             >
-              Fale com a gente pelo grupo
+              Fale com a gente pelo WhatsApp
             </a>
           </p>
         </div>
