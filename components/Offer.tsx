@@ -51,7 +51,7 @@ export default function Offer() {
             <div className="flex items-end justify-center gap-2">
               <span className="text-navy-500/60 text-2xl font-bold self-start mt-3">R$</span>
               <span className="text-6xl sm:text-7xl font-black text-navy-500 leading-none">29</span>
-              <span className="text-navy-500/60 text-2xl font-bold self-end mb-2">,90</span>
+              <span className="text-navy-500/60 text-2xl font-bold self-end mb-2">,99</span>
             </div>
             <p className="text-red-500 text-sm font-semibold mt-2">
               Pagamento único • Sem mensalidade
