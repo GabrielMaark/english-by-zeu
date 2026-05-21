@@ -12,19 +12,6 @@ export default function Footer() {
           English by <span className="text-red-400">Zeu</span>
         </span>
 
-        {/* Links */}
-        <div className="flex items-center gap-6 text-white/30 text-xs">
-          <a href="#" className="hover:text-white/70 transition-colors">
-            Termos de uso
-          </a>
-          <a href="#" className="hover:text-white/70 transition-colors">
-            Política de privacidade
-          </a>
-          <a href="#" className="hover:text-white/70 transition-colors">
-            Contato
-          </a>
-        </div>
-
         <p className="text-white/20 text-xs">
           © 2025 English by Zeu. Todos os direitos reservados.
         </p>
